@@ -98,11 +98,31 @@ Information retrieval built from first principles: document/query models, analyz
 
 ## Stack
 
+**Primary** &nbsp;<sub>daily use, tested in production across projects</sub>
+
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,react,sqlite,linux,git,docker" alt="Python, C++, FastAPI, React, SQLite, Linux, Git, Docker" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,sqlite,git,linux" alt="Python, C++, FastAPI, SQLite, Git, Linux" />
+  <img src="https://cdn.simpleicons.org/pytest" height="48" alt="pytest" title="pytest" />
 </p>
 
-`asyncio` · `aiohttp` · WebSockets · Pandas · pytest · PySpark (batch/distributed data cleaning)
+**Secondary** &nbsp;<sub>used extensively within a specific project</sub>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,docker" alt="React, Docker" />
+  <img src="https://cdn.simpleicons.org/aiohttp" height="48" alt="aiohttp" title="aiohttp (asyncio-based fetch layer, CrawlViz)" />
+  <img src="https://cdn.simpleicons.org/pandas" height="48" alt="Pandas" title="Pandas" />
+  <img src="https://cdn.simpleicons.org/apachespark" height="48" alt="PySpark" title="PySpark (distributed data cleaning)" />
+  <img src="https://cdn.simpleicons.org/pydantic" height="48" alt="Pydantic" title="Pydantic (Invoice Intake Tool)" />
+  <img src="https://cdn.simpleicons.org/openrouter" height="48" alt="OpenRouter" title="OpenRouter (selective LLM routing, CrawlViz)" />
+</p>
+
+**Exposure / training** &nbsp;<sub>coursework or project-level exposure, not production depth</sub>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,tailwind,java" alt="JavaScript, Tailwind, Java" />
+  <img src="https://cdn.simpleicons.org/langchain" height="48" alt="LangChain" title="LangChain (training/exposure)" />
+  <img src="https://cdn.simpleicons.org/huggingface" height="48" alt="Hugging Face" title="Hugging Face (training/exposure)" />
+</p>
 
 ---
 
