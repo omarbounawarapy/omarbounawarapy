@@ -6,8 +6,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=8B8B8B&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
 
-Computer Engineering graduate (ISI, Université de Tunis El Manar) building Python systems around
-asynchronous I/O, information retrieval, and data pipelines. C++ for algorithms and competitive programming.
+Computer Engineering graduate (ISI, Université de Tunis El Manar). Most of what's below is either running code in this account or a documented, client-delivered pipeline I can speak to in detail but can't link publicly.
 
 [LinkedIn](https://www.linkedin.com/in/omar-bounawara-py) · [Codeforces](https://codeforces.com/profile/Omar_Bounawara) · [Email](mailto:omar.bounawara.py@gmail.com)
 
@@ -15,16 +14,13 @@ asynchronous I/O, information retrieval, and data pipelines. C++ for algorithms 
 
 <br>
 
-> Most of what's below is either running code in this account or a documented, client-delivered pipeline
-> I can speak to in detail but can't link publicly.
->
-> **Currently:** building CrawlViz (below) and rebuilding competitive-programming fundamentals in C++ from a clean Codeforces handle.
+Focus: asynchronous Python systems, information retrieval, automation, and competitive programming in C++.
 
 ---
 
 ## Selected work
 
-### CrawlViz — focused web crawler
+### CrawlViz - focused web crawler
 
 Decides, link by link, whether a page is worth fetching, instead of crawling exhaustively.
 
@@ -33,7 +29,7 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 `50,828 links` → `539 explored` · `~40× faster` (600s → 15s) · `57 typed events` · `123 backend tests`
 
 - Two-stage relevance cascade: a local sentence-embedding pass filters candidates in milliseconds; only the ambiguous middle band goes to an LLM, keeping cost and latency off the critical path.
-- `asyncio` event bus (57 typed events) coordinating ~12 independent pipeline stages — fetch, extract, filter, score, prioritize, export, retry — with no direct calls between them.
+- `asyncio` event bus (57 typed events) coordinating ~12 independent pipeline stages (fetch, extract, filter, score, prioritize, export, retry) with no direct calls between them.
 - FastAPI control plane, WebSocket state streaming, and a React/D3 frontend that rebuilds its own state by replaying the event log (checkpoint-assisted scrubbing, not a live-only view).
 
 <details>
@@ -51,7 +47,7 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 
 <br>
 
-### GAAPWise — BODACC Intelligence Pipeline
+### GAAPWise - BODACC Intelligence Pipeline
 
 ![private client engagement](https://img.shields.io/badge/-private_client_engagement-2d2d2d?style=flat-square)
 
@@ -61,7 +57,7 @@ Freelance ETL/decision system over public French legal-announcement data (BODACC
 
 `~28k Python lines` · `~1,000 tests` · `17× measured speedup` · `161 requirements traced, 157 compliant`
 
-- Deterministic, config-driven classification and scoring: 9 event classes, 6 scoring components, 4 priority bands, all externalized to YAML rather than hardcoded — no ML in the decision path, by design.
+- Deterministic, config-driven classification and scoring: 9 event classes, 6 scoring components, 4 priority bands, all externalized to YAML rather than hardcoded. No ML in the decision path, by design.
 - Idempotent ingestion with SIREN-level identity resolution, provenance tracking, and versioned/immutable decision records so past outputs stay reproducible after rule changes.
 - Root-caused a production slowdown to per-record DB commits rather than the enrichment API; batching commits gave a measured 17× end-to-end speedup on an identical re-run.
 
@@ -70,7 +66,7 @@ Freelance ETL/decision system over public French legal-announcement data (BODACC
 
 - ~28k lines of Python across 60 source modules, ~1,000 tests including real OS-level concurrency tests (actual competing processes) and real crash-recovery tests (actual SIGKILL mid-run).
 - Independent spec-compliance audit: 161 requirements traced, 157 compliant, 4 documented deviations, 0 non-compliant.
-- Not on GitHub — private client codebase. Described here in prose because the engagement, not the code, is what can be shared.
+- Not on GitHub, private client codebase. Described here in prose because the engagement, not the code, is what can be shared.
 
 </details>
 
@@ -84,7 +80,7 @@ CLI that turns semi-structured invoice PDFs (table or paragraph layout, mixed re
 
 `200+ regression tests` · `JSON / CSV / XLSX export`
 
-No OCR, no LLM, no database — deliberately scoped as a deterministic extraction/validation tool.
+No OCR, no LLM, no database: deliberately scoped as a deterministic extraction/validation tool.
 
 **[View repository →](https://github.com/omarbounawarapy/invoice_intake_automation_tool)**
 
@@ -92,7 +88,7 @@ No OCR, no LLM, no database — deliberately scoped as a deterministic extractio
 
 ### IR Lab
 
-Information retrieval built from first principles: document/query models, analyzers, inverted-index abstractions, Boolean retrieval, and evaluation scaffolding — kept deliberately separate from any framework.
+Information retrieval built from first principles: document/query models, analyzers, inverted-index abstractions, Boolean retrieval, and evaluation scaffolding, kept deliberately separate from any framework.
 
 `Python`
 
@@ -121,7 +117,7 @@ Active on a clean Codeforces handle, mostly graph algorithms, dynamic programmin
 <details>
 <summary>Earlier account and progress notes</summary>
 
-Prior handle: [codeforces.com/profile/OMAR-SOLO](https://codeforces.com/profile/OMAR-SOLO) (max rating 1159). Restarted from a clean handle with no imported history — 68 problems solved in the first 9 days.
+Prior handle: [codeforces.com/profile/OMAR-SOLO](https://codeforces.com/profile/OMAR-SOLO) (max rating 1159). Restarted from a clean handle with no imported history, 68 problems solved in the first 9 days.
 
 </details>
 
