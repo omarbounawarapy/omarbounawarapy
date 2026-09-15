@@ -62,10 +62,14 @@ Freelance ETL/decision system over public French legal-announcement data (BODACC
 - Root-caused a production slowdown to per-record DB commits rather than the enrichment API; batching commits gave a measured 17× end-to-end speedup on an identical re-run.
 
 <details>
-<summary><strong>Scale and validation detail</strong></summary>
+<summary><strong>Engineering process and validation</strong></summary>
 
-- ~28k lines of Python across 60 source modules, ~1,000 tests including real OS-level concurrency tests (actual competing processes) and real crash-recovery tests (actual SIGKILL mid-run).
-- Independent spec-compliance audit: 161 requirements traced, 157 compliant, 4 documented deviations, 0 non-compliant.
+- Independent code-quality audit read the full source tree, not sampled: 27 findings (0 critical, 2 high). Both high-severity issues fixed: an enrichment-provider exception gap that could crash a full run instead of degrading one record, and an unprotected export-write path fixed with atomic writes. Also closed a CSV/formula-injection risk in exported files.
+- Specification-compliance audit traced 161 requirements (157 compliant, 4 documented deviations, 0 non-compliant), preceded by an earlier red-team review cycle that raised 17 findings, all since resolved.
+- Final acceptance ran black-box: a full real month of production data end to end, not just internal fixtures.
+- Independent validation combined a one-week live-API simulation with a 12-sample hand-reconstruction of real records checked against pipeline output; both found zero discrepancies.
+- Concurrency and crash-recovery tests exercise real conditions rather than mocks: actual competing OS processes racing the lock file, actual SIGKILL mid-run.
+- Packaging audit caught a real defect before delivery: a database schema file missing from package data, which would have made a built wheel crash on first use. Fixed and verified with a real build and fresh-environment install.
 - Not on GitHub, private client codebase. Described here in prose because the engagement, not the code, is what can be shared.
 
 </details>
