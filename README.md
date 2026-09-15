@@ -29,17 +29,17 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 `50,828 links` → `539 explored` · `~40× faster` (600s → 15s) · `57 typed events` · `123 backend tests`
 
 - Two-stage relevance cascade: a local sentence-embedding pass filters candidates in milliseconds; only the ambiguous middle band goes to an LLM, keeping cost and latency off the critical path.
-- `asyncio` event bus (57 typed events) coordinating ~12 independent pipeline stages (fetch, extract, filter, score, prioritize, export, retry) with no direct calls between them.
+- `asyncio` event bus (**57** typed events) coordinating **~12** independent pipeline stages (fetch, extract, filter, score, prioritize, export, retry) with no direct calls between them.
 - FastAPI control plane, WebSocket state streaming, and a React/D3 frontend that rebuilds its own state by replaying the event log (checkpoint-assisted scrubbing, not a live-only view).
 
 <details>
 <summary><strong>Architecture and benchmark detail</strong></summary>
 
-- Reference run: 50,828 links identified, 539 nodes explored (~1% retained for downstream exploration).
-- Reworking the fetch path around `asyncio` took the same 560-node benchmark from ~600s to ~15s wall-clock (~40×).
+- Reference run: **50,828** links identified, **539** nodes explored (**~1%** retained for downstream exploration).
+- Reworking the fetch path around `asyncio` took the same **560**-node benchmark from **~600s** to **~15s** wall-clock (**~40×**).
 - Declarative crawl blueprints define seeds, domains, extraction rules, scoring, and stopping conditions.
 - Explicit runtime state, retries, and structured exports; the frontend never depends on a live connection to reconstruct history.
-- 123 backend tests.
+- **123** backend tests.
 
 **[View repository →](https://github.com/omarbounawarapy/CrawlViz)**
 
@@ -57,17 +57,17 @@ Freelance ETL/decision system over public French legal-announcement data (BODACC
 
 `~28k Python lines` · `~1,000 tests` · `17× measured speedup` · `161 requirements traced, 157 compliant`
 
-- Deterministic, config-driven classification and scoring: 9 event classes, 6 scoring components, 4 priority bands, all externalized to YAML rather than hardcoded. No ML in the decision path, by design.
+- Deterministic, config-driven classification and scoring: **9** event classes, **6** scoring components, **4** priority bands, all externalized to YAML rather than hardcoded. No ML in the decision path, by design.
 - Idempotent ingestion with SIREN-level identity resolution, provenance tracking, and versioned/immutable decision records so past outputs stay reproducible after rule changes.
-- Root-caused a production slowdown to per-record DB commits rather than the enrichment API; batching commits gave a measured 17× end-to-end speedup on an identical re-run.
+- Root-caused a production slowdown to per-record DB commits rather than the enrichment API; batching commits gave a measured **17×** end-to-end speedup on an identical re-run.
 
 <details>
 <summary><strong>Engineering process and validation</strong></summary>
 
-- Independent code-quality audit read the full source tree, not sampled: 27 findings (0 critical, 2 high). Both high-severity issues fixed: an enrichment-provider exception gap that could crash a full run instead of degrading one record, and an unprotected export-write path fixed with atomic writes. Also closed a CSV/formula-injection risk in exported files.
-- Specification-compliance audit traced 161 requirements (157 compliant, 4 documented deviations, 0 non-compliant), preceded by an earlier red-team review cycle that raised 17 findings, all since resolved.
-- Final acceptance ran black-box: a full real month of production data end to end, not just internal fixtures.
-- Independent validation combined a one-week live-API simulation with a 12-sample hand-reconstruction of real records checked against pipeline output; both found zero discrepancies.
+- Independent code-quality audit read the full source tree, not sampled: **27** findings (**0** critical, **2** high). Both high-severity issues fixed: an enrichment-provider exception gap that could crash a full run instead of degrading one record, and an unprotected export-write path fixed with atomic writes. Also closed a CSV/formula-injection risk in exported files.
+- Specification-compliance audit traced **161** requirements (**157** compliant, **4** documented deviations, **0** non-compliant), preceded by an earlier red-team review cycle that raised **17** findings, all since resolved.
+- Final acceptance ran black-box over **30** real days of production data (**2026-08-12** to **2026-09-11**): **318,962** records fetched, **114,705** classified and scored, **114,389** enriched, **524** flagged, **0** errors, in **34m30s**.
+- Independent validation combined a one-week live-API simulation with a **12**-sample hand-reconstruction of real records checked against pipeline output; both found zero discrepancies.
 - Concurrency and crash-recovery tests exercise real conditions rather than mocks: actual competing OS processes racing the lock file, actual SIGKILL mid-run.
 - Packaging audit caught a real defect before delivery: a database schema file missing from package data, which would have made a built wheel crash on first use. Fixed and verified with a real build and fresh-environment install.
 - Not on GitHub, private client codebase. Described here in prose because the engagement, not the code, is what can be shared.
@@ -141,7 +141,7 @@ Active on a clean Codeforces handle, mostly graph algorithms, dynamic programmin
 <details>
 <summary>Earlier account and progress notes</summary>
 
-Prior handle: [codeforces.com/profile/OMAR-SOLO](https://codeforces.com/profile/OMAR-SOLO) (max rating 1159). Restarted from a clean handle with no imported history, 68 problems solved in the first 9 days.
+Prior handle: [codeforces.com/profile/OMAR-SOLO](https://codeforces.com/profile/OMAR-SOLO) (max rating **1159**). Restarted from a clean handle with no imported history, **68** problems solved in the first **9** days.
 
 </details>
 
