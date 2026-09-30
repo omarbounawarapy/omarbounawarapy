@@ -2,9 +2,9 @@
 
 # Omar Bounawara
 
-**Computer Engineering · Python · C++ · Systems**
+**COMPUTER ENGINEERING &nbsp;·&nbsp; PYTHON &nbsp;·&nbsp; C++ &nbsp;·&nbsp; SYSTEMS**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=8B8B8B&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;measure+first+%C2%B7+optimize+second;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=1400&color=9A9A9A&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;measure+first+%C2%B7+optimize+second;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
 
 I build systems that check their own work: pipelines with deterministic verification, evaluation gates, and measurements instead of guesses. Most of what's below is running code in this account, a live demo, or a client-delivered pipeline I can describe in detail but can't link publicly.
 
@@ -16,7 +16,7 @@ Computer Engineering at ISI, Université de Tunis El Manar.
 
 <br>
 
-Focus: asynchronous Python systems, LLM-backed pipelines, information retrieval, automation, and competitive programming in C++.
+<sub>**FOCUS**</sub> &nbsp;asynchronous Python systems, LLM-backed pipelines, information retrieval, automation, and competitive programming in C++.
 
 ---
 
