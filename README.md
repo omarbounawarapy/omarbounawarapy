@@ -164,6 +164,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
   <img src="https://skillicons.dev/icons?i=cpp" height="48" alt="C++" title="C++" />
   <img src="https://skillicons.dev/icons?i=fastapi" height="48" alt="FastAPI" title="FastAPI" />
   <img src="https://skillicons.dev/icons?i=sqlite" height="48" alt="SQLite" title="SQLite" />
+  <img src="https://api.iconify.design/vscode-icons:file-type-sql.svg" height="48" width="48" alt="SQL" title="SQL" />
   <img src="https://skillicons.dev/icons?i=git" height="48" alt="Git" title="Git" />
   <img src="https://skillicons.dev/icons?i=linux" height="48" alt="Linux" title="Linux" />
   <img src="https://skillicons.dev/icons?i=githubactions" height="48" alt="GitHub Actions" title="GitHub Actions" />
