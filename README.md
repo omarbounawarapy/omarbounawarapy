@@ -4,7 +4,7 @@
 
 **Computer Engineering · Python · C++ · Systems**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=8B8B8B&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=8B8B8B&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
 
 Computer Engineering graduate (ISI, Université de Tunis El Manar). Most of what's below is either running code in this account or a documented, client-delivered pipeline I can speak to in detail but can't link publicly.
 
