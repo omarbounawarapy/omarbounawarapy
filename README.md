@@ -157,38 +157,56 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ## Stack
 
-**Primary** &nbsp;<sub>daily use, tested in production across projects</sub>
+**Languages**
 
 <p>
   <img src="https://skillicons.dev/icons?i=python" height="48" alt="Python" title="Python" />
   <img src="https://skillicons.dev/icons?i=cpp" height="48" alt="C++" title="C++" />
-  <img src="https://skillicons.dev/icons?i=fastapi" height="48" alt="FastAPI" title="FastAPI" />
-  <img src="https://skillicons.dev/icons?i=sqlite" height="48" alt="SQLite" title="SQLite" />
-  <img src="https://skillicons.dev/icons?i=git" height="48" alt="Git" title="Git" />
-  <img src="https://skillicons.dev/icons?i=linux" height="48" alt="Linux" title="Linux" />
-  <img src="https://skillicons.dev/icons?i=githubactions" height="48" alt="GitHub Actions" title="GitHub Actions" />
-  <img src="https://cdn.simpleicons.org/pytest" height="48" alt="pytest" title="pytest" />
+  <img src="https://skillicons.dev/icons?i=java" height="48" alt="Java" title="Java" />
+  <img src="https://skillicons.dev/icons?i=js" height="48" alt="JavaScript" title="JavaScript" />
+  <img src="https://api.iconify.design/vscode-icons:file-type-sql.svg" height="48" alt="SQL" title="SQL" />
 </p>
 
-**Secondary** &nbsp;<sub>used extensively within a specific project</sub>
+**Databases**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres" height="48" alt="PostgreSQL" title="PostgreSQL" />
+  <img src="https://skillicons.dev/icons?i=oracle" height="48" alt="Oracle" title="Oracle" />
+  <img src="https://skillicons.dev/icons?i=sqlite" height="48" alt="SQLite" title="SQLite" />
+</p>
+
+**Backend and tooling**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=fastapi" height="48" alt="FastAPI" title="FastAPI" />
+  <img src="https://cdn.simpleicons.org/aiohttp" height="48" alt="aiohttp" title="aiohttp" />
+  <img src="https://cdn.simpleicons.org/pydantic" height="48" alt="Pydantic" title="Pydantic" />
+  <img src="https://cdn.simpleicons.org/pytest" height="48" alt="pytest" title="pytest" />
+  <img src="https://skillicons.dev/icons?i=docker" height="48" alt="Docker" title="Docker" />
+  <img src="https://skillicons.dev/icons?i=linux" height="48" alt="Linux" title="Linux" />
+  <img src="https://skillicons.dev/icons?i=git" height="48" alt="Git" title="Git" />
+  <img src="https://skillicons.dev/icons?i=githubactions" height="48" alt="GitHub Actions" title="GitHub Actions" />
+</p>
+
+**Data**
+
+<p>
+  <img src="https://cdn.simpleicons.org/pandas" height="48" alt="Pandas" title="Pandas" />
+  <img src="https://cdn.simpleicons.org/apachespark" height="48" alt="PySpark" title="PySpark" />
+  <img src="https://cdn.simpleicons.org/scikitlearn" height="48" alt="scikit-learn" title="scikit-learn" />
+</p>
+
+**Frontend**
 
 <p>
   <img src="https://skillicons.dev/icons?i=react" height="48" alt="React" title="React" />
-  <img src="https://skillicons.dev/icons?i=docker" height="48" alt="Docker" title="Docker" />
-  <img src="https://cdn.simpleicons.org/aiohttp" height="48" alt="aiohttp" title="aiohttp" />
-  <img src="https://cdn.simpleicons.org/pandas" height="48" alt="Pandas" title="Pandas" />
-  <img src="https://cdn.simpleicons.org/apachespark" height="48" alt="PySpark" title="PySpark" />
-  <img src="https://cdn.simpleicons.org/pydantic" height="48" alt="Pydantic" title="Pydantic" />
-  <img src="https://cdn.simpleicons.org/scikitlearn" height="48" alt="scikit-learn" title="scikit-learn" />
-  <img src="https://cdn.simpleicons.org/openrouter" height="48" alt="OpenRouter" title="OpenRouter" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="48" alt="Tailwind CSS" title="Tailwind CSS" />
 </p>
 
-**Exposure / training** &nbsp;<sub>coursework or project-level exposure, not production depth</sub>
+**LLMs and AI**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js" height="48" alt="JavaScript" title="JavaScript" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="48" alt="Tailwind CSS" title="Tailwind CSS" />
-  <img src="https://skillicons.dev/icons?i=java" height="48" alt="Java" title="Java" />
+  <img src="https://cdn.simpleicons.org/openrouter" height="48" alt="OpenRouter" title="OpenRouter" />
   <img src="https://cdn.simpleicons.org/langchain" height="48" alt="LangChain" title="LangChain" />
   <img src="https://cdn.simpleicons.org/huggingface" height="48" alt="Hugging Face" title="Hugging Face" />
 </p>
