@@ -26,7 +26,7 @@ Focus: asynchronous Python systems, LLM-backed pipelines, information retrieval,
 
 Decides, link by link, whether a page is worth fetching, instead of crawling exhaustively.
 
-*What I learned: the time went into waiting on I/O, not computing. Making the fetch path concurrent mattered more than any ranking tweak.*
+*What I learned: the time went into waiting on I/O, not computing. Making the fetch path concurrent cut the same 560-node benchmark from ~600s to ~15s.*
 
 `Python` `asyncio` `aiohttp` `lxml` `sentence-transformers` `FastAPI` `WebSockets` `React` `D3` `SQLite`
 
@@ -90,7 +90,7 @@ Client consulting engagement: ETL/decision system over public French legal-annou
 
 Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a four-person team and owned the AI/ML core, integration and merge gates.
 
-*Why it's built this way: the LLM reads the chat, code decides the number. The model never picks the score.*
+*The LLM reads the chat and code decides the number, so the model never picks the score.*
 
 `Python` `FastAPI` `Pydantic` `SQLite` `XGBoost` `scikit-learn` `pytest` `GitHub Actions`
 
@@ -125,7 +125,7 @@ CLI that turns semi-structured invoice PDFs (table or paragraph layout, mixed re
 
 `200+ regression tests` · `JSON / CSV / XLSX export`
 
-No OCR, no LLM, no database: deliberately scoped as a deterministic extraction/validation tool.
+Deliberately scoped as a deterministic extraction and validation tool, with no OCR, no LLM and no database.
 
 **[View repository →](https://github.com/omarbounawarapy/invoice_intake_automation_tool)**
 
@@ -148,7 +148,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ## How I work
 
-- **Measure before optimizing.** The **17×** GAAPWise speedup and the **~40×** CrawlViz speedup both started from a benchmark, not a hunch.
+- **Measure before optimizing.** The **17×** GAAPWise speedup and the **~40×** CrawlViz speedup both started from a benchmark.
 - **Verify the model, don't trust it.** In Wasel the LLM extracts and code checks every quote and computes the score.
 - **Test the real thing.** Real OS processes racing a lock file, a real SIGKILL mid-run, black-box acceptance runs on a month of real data.
 - **Compare honestly.** IR Lab refuses to compare two runs that differ in more than one thing, and its own black-box case study found and fixed defects in my code.
@@ -194,9 +194,9 @@ I do competitive programming in C++, mostly graph algorithms, dynamic programmin
 
 ## Languages
 
-<img src="https://flagcdn.com/w40/tn.png" height="18" align="top" alt="" /> &nbsp;**Arabic** · native<br>
-<img src="https://flagcdn.com/w40/fr.png" height="18" align="top" alt="" /> &nbsp;**French** · fluent<br>
-<img src="https://flagcdn.com/w40/gb.png" height="18" align="top" alt="" /> &nbsp;**English** · professional<br>
+<img src="https://flagcdn.com/w80/tn.png" width="30" align="top" alt="" /> &nbsp;**Arabic** · native<br>
+<img src="https://flagcdn.com/w80/fr.png" width="30" align="top" alt="" /> &nbsp;**French** · fluent<br>
+<img src="https://flagcdn.com/w80/gb.png" width="30" align="top" alt="" /> &nbsp;**English** · professional<br>
 
 ---
 
