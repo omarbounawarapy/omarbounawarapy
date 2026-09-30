@@ -78,7 +78,7 @@ Client consulting engagement: ETL/decision system over public French legal-annou
 
 <br>
 
-### Wasel - cash-on-delivery refusal-risk scoring
+### [Wasel](https://wasel-mc5y.onrender.com) - cash-on-delivery refusal-risk scoring
 
 ![pre-startup team project](https://img.shields.io/badge/-pre--startup_team_project-2d2d2d?style=flat-square)
 
