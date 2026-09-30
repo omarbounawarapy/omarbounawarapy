@@ -4,9 +4,11 @@
 
 **Computer Engineering · Python · C++ · Systems**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=8B8B8B&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=1400&color=8B8B8B&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;measure+first+%C2%B7+optimize+second;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
 
-Computer Engineering graduate (ISI, Université de Tunis El Manar). Most of what's below is either running code in this account or a documented, client-delivered pipeline I can speak to in detail but can't link publicly.
+I build systems that check their own work: pipelines with deterministic verification, evaluation gates, and measurements instead of guesses. Most of what's below is running code in this account, a live demo, or a client-delivered pipeline I can describe in detail but can't link publicly.
+
+Computer Engineering at ISI, Université de Tunis El Manar.
 
 [GitHub](https://github.com/omarbounawarapy) · [Email](mailto:omar.bounawara.py@gmail.com)
 
@@ -14,7 +16,7 @@ Computer Engineering graduate (ISI, Université de Tunis El Manar). Most of what
 
 <br>
 
-Focus: asynchronous Python systems, LLM-backed pipelines with deterministic verification, information retrieval, automation, and competitive programming in C++.
+Focus: asynchronous Python systems, LLM-backed pipelines, information retrieval, automation, and competitive programming in C++.
 
 ---
 
@@ -23,6 +25,8 @@ Focus: asynchronous Python systems, LLM-backed pipelines with deterministic veri
 ### CrawlViz - focused web crawler
 
 Decides, link by link, whether a page is worth fetching, instead of crawling exhaustively.
+
+*What I learned: the time went into waiting on I/O, not computing. Making the fetch path concurrent mattered more than any ranking tweak.*
 
 `Python` `asyncio` `aiohttp` `lxml` `sentence-transformers` `FastAPI` `WebSockets` `React` `D3` `SQLite`
 
@@ -52,6 +56,8 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 ![private client engagement](https://img.shields.io/badge/-private_client_engagement-2d2d2d?style=flat-square)
 
 Client consulting engagement: ETL/decision system over public French legal-announcement data (BODACC), built solo end to end and delivered as versioned releases (**0.1.0**, then **0.1.1** answering the client's written review point by point).
+
+*What I learned: the suspected culprit for a slow run was the enrichment API. I measured it, ruled it out, and found per-record database commits instead.*
 
 `Python` `asyncio` `SQLite` `YAML config` `pytest`
 
@@ -83,6 +89,8 @@ Client consulting engagement: ETL/decision system over public French legal-annou
 ![pre-startup team project](https://img.shields.io/badge/-pre--startup_team_project-2d2d2d?style=flat-square)
 
 Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a four-person team and owned the AI/ML core, integration and merge gates.
+
+*Why it's built this way: the LLM reads the chat, code decides the number. The model never picks the score.*
 
 `Python` `FastAPI` `Pydantic` `SQLite` `XGBoost` `scikit-learn` `pytest` `GitHub Actions`
 
@@ -138,6 +146,13 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 **[View repository →](https://github.com/omarbounawarapy/IR-lab)**
 
+## How I work
+
+- **Measure before optimizing.** The **17×** GAAPWise speedup and the **~40×** CrawlViz speedup both started from a benchmark, not a hunch.
+- **Verify the model, don't trust it.** In Wasel the LLM extracts and code checks every quote and computes the score.
+- **Test the real thing.** Real OS processes racing a lock file, a real SIGKILL mid-run, black-box acceptance runs on a month of real data.
+- **Compare honestly.** IR Lab refuses to compare two runs that differ in more than one thing, and its own black-box case study found and fixed defects in my code.
+
 ---
 
 ## Stack
@@ -173,7 +188,15 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ## Competitive programming
 
-I do competitive programming in C++, mostly graph algorithms, dynamic programming, and data-structure-heavy problems.
+I do competitive programming in C++, mostly graph algorithms, dynamic programming, and data-structure-heavy problems. It's how I keep algorithms and complexity sharp.
+
+---
+
+## Languages
+
+<img src="https://flagcdn.com/w40/tn.png" height="18" align="top" alt="" /> &nbsp;**Arabic** · native<br>
+<img src="https://flagcdn.com/w40/fr.png" height="18" align="top" alt="" /> &nbsp;**French** · fluent<br>
+<img src="https://flagcdn.com/w40/gb.png" height="18" align="top" alt="" /> &nbsp;**English** · professional<br>
 
 ---
 
