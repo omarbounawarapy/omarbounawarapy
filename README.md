@@ -20,13 +20,13 @@ Computer Engineering at ISI, Université de Tunis El Manar.
 
 ---
 
-## Selected work
+## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=233&height=44&vCenter=true&lines=Selected+work" alt="Selected work" />
 
 ### CrawlViz - focused web crawler
 
 Decides, link by link, whether a page is worth fetching, instead of crawling exhaustively.
 
-*What I learned: the time went into waiting on I/O, not computing. Making the fetch path concurrent cut the same 560-node benchmark from ~600s to ~15s.*
+> *What I learned: the time went into waiting on I/O, not computing. Making the fetch path concurrent cut the same 560-node benchmark from ~600s to ~15s.*
 
 `Python` `asyncio` `aiohttp` `lxml` `sentence-transformers` `FastAPI` `WebSockets` `React` `D3` `SQLite`
 
@@ -57,7 +57,7 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 
 Client consulting engagement: ETL/decision system over public French legal-announcement data (BODACC), built solo end to end and delivered as versioned releases (**0.1.0**, then **0.1.1** answering the client's written review point by point).
 
-*What I learned: the suspected culprit for a slow run was the enrichment API. I measured it, ruled it out, and found per-record database commits instead.*
+> *What I learned: the suspected culprit for a slow run was the enrichment API. I measured it, ruled it out, and found per-record database commits instead.*
 
 `Python` `asyncio` `SQLite` `YAML config` `pytest`
 
@@ -90,7 +90,7 @@ Client consulting engagement: ETL/decision system over public French legal-annou
 
 Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a four-person team and owned the AI/ML core, integration and merge gates.
 
-*The LLM reads the chat and code decides the number, so the model never picks the score.*
+> *The LLM reads the chat and code decides the number, so the model never picks the score.*
 
 `Python` `FastAPI` `Pydantic` `SQLite` `XGBoost` `scikit-learn` `pytest` `GitHub Actions`
 
@@ -146,7 +146,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 **[View repository →](https://github.com/omarbounawarapy/IR-lab)**
 
-## How I work
+## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=185&height=44&vCenter=true&lines=How+I+work" alt="How I work" />
 
 - **Measure before optimizing.** The **17×** GAAPWise speedup and the **~40×** CrawlViz speedup both started from a benchmark.
 - **Verify the model, don't trust it.** In Wasel the LLM extracts and code checks every quote and computes the score.
@@ -155,9 +155,9 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ---
 
-## Stack
+## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=104&height=44&vCenter=true&lines=Stack" alt="Stack" />
 
-**Primary** &nbsp;<sub>daily use, tested in production across projects</sub>
+**PRIMARY** &nbsp;<sub>daily use, tested in production across projects</sub>
 
 <p>
   <img src="https://skillicons.dev/icons?i=python" height="48" alt="Python" title="Python" />
@@ -171,7 +171,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
   <img src="https://cdn.simpleicons.org/pytest" height="48" alt="pytest" title="pytest" />
 </p>
 
-**Secondary** &nbsp;<sub>used extensively within a specific project</sub>
+**SECONDARY** &nbsp;<sub>used extensively within a specific project</sub>
 
 <p>
   <img src="https://skillicons.dev/icons?i=react" height="48" alt="React" title="React" />
@@ -184,7 +184,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
   <img src="https://cdn.simpleicons.org/openrouter" height="48" alt="OpenRouter" title="OpenRouter" />
 </p>
 
-**Exposure / training** &nbsp;<sub>coursework or project-level exposure, not production depth</sub>
+**EXPOSURE / TRAINING** &nbsp;<sub>coursework or project-level exposure, not production depth</sub>
 
 <p>
   <img src="https://skillicons.dev/icons?i=js" height="48" alt="JavaScript" title="JavaScript" />
@@ -196,13 +196,13 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ---
 
-## Competitive programming
+## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=394&height=44&vCenter=true&lines=Competitive+programming" alt="Competitive programming" />
 
 I do competitive programming in C++, mostly graph algorithms, dynamic programming, and data-structure-heavy problems. It's how I keep algorithms and complexity sharp.
 
 ---
 
-## Languages
+## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=169&height=44&vCenter=true&lines=Languages" alt="Languages" />
 
 <img src="https://flagcdn.com/w80/tn.png" width="30" align="top" alt="" /> &nbsp;**Arabic** · native<br>
 <img src="https://flagcdn.com/w80/fr.png" width="30" align="top" alt="" /> &nbsp;**French** · fluent<br>
@@ -210,13 +210,13 @@ I do competitive programming in C++, mostly graph algorithms, dynamic programmin
 
 ---
 
-## Background
+## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=185&height=44&vCenter=true&lines=Background" alt="Background" />
 
 Licence in Computer Engineering (Computer Systems Engineering, Networks & Systems), Institut Supérieur d'Informatique, Université de Tunis El Manar, 2023–2026.
 
 Coursework spanning algorithms & complexity, distributed systems, databases, information retrieval, and AI. Final-year research-software-engineer project (2025–2026) is the source of CrawlViz above.
 
-**Training**
+**TRAINING**
 
 <img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="" /> &nbsp;DataCamp Associate AI Engineer for Developers<br>
 <img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="" /> &nbsp;DataCamp Data Engineer with Python<br>
