@@ -66,7 +66,7 @@ Client consulting engagement: ETL/decision system over public French legal-annou
 
 - Code-quality audit read the full source tree, not sampled: **27** findings (**0** critical, **2** high). Both high-severity issues fixed: an enrichment-provider exception gap that could crash a full run instead of degrading one record, and an unprotected export-write path fixed with atomic writes. Also closed a CSV/formula-injection risk in exported files.
 - Specification-compliance audit traced **161** requirements (**157** compliant, **4** documented deviations, **0** non-compliant), preceded by an earlier red-team review cycle that raised **17** findings, all since resolved.
-- Final acceptance ran black-box over **30** real days of production data (**2026-08-12** to **2026-09-11**): **318,962** records fetched, **114,705** classified and scored, **114,389** enriched, **524** flagged, **0** errors, in **34m30s**.
+- Final acceptance ran black-box over a full month of real production data (**2026-08-12** to **2026-09-11**): **318,962** records fetched, **114,705** classified and scored, **114,389** enriched, **524** flagged, **0** errors, in **34m30s**.
 - Independent validation combined a one-week live-API simulation with a **12**-sample hand-reconstruction of real records checked against pipeline output; both found zero discrepancies.
 - Concurrency and crash-recovery tests exercise real conditions rather than mocks: actual competing OS processes racing the lock file, actual SIGKILL mid-run.
 - Packaging audit caught a real defect before delivery: a database schema file missing from package data, which would have made a built wheel crash on first use. Fixed and verified with a real build and fresh-environment install.
@@ -185,10 +185,10 @@ Coursework spanning algorithms & complexity, distributed systems, databases, inf
 
 **Training**
 
-<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Associate AI Engineer for Developers" /> &nbsp;DataCamp Associate AI Engineer for Developers<br>
-<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Data Engineer with Python" /> &nbsp;DataCamp Data Engineer with Python<br>
-<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Associate Data Engineer in SQL" /> &nbsp;DataCamp Associate Data Engineer in SQL<br>
-<img src="https://cdn.simpleicons.org/nvidia" height="20" align="top" alt="NVIDIA Building LLM Applications With Prompt Engineering" /> &nbsp;NVIDIA Building LLM Applications With Prompt Engineering<br>
+<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="" /> &nbsp;DataCamp Associate AI Engineer for Developers<br>
+<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="" /> &nbsp;DataCamp Data Engineer with Python<br>
+<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="" /> &nbsp;DataCamp Associate Data Engineer in SQL<br>
+<img src="https://cdn.simpleicons.org/nvidia" height="20" align="top" alt="" /> &nbsp;NVIDIA Building LLM Applications With Prompt Engineering<br>
 
 ---
 
