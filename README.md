@@ -10,6 +10,8 @@ Computer Engineering graduate (ISI, Université de Tunis El Manar). Most of what
 
 [GitHub](https://github.com/omarbounawarapy) · [Email](mailto:omar.bounawara.py@gmail.com)
 
+<img src="https://ghchart.rshah.org/2ea043/omarbounawarapy" alt="GitHub contribution graph" width="720" />
+
 </div>
 
 <br>
