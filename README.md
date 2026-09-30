@@ -144,33 +144,30 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 **Primary** &nbsp;<sub>daily use, tested in production across projects</sub>
 
-- Python &nbsp;<img src="https://skillicons.dev/icons?i=python" height="20" align="top" alt="Python" />
-- C++ &nbsp;<img src="https://skillicons.dev/icons?i=cpp" height="20" align="top" alt="C++" />
-- FastAPI &nbsp;<img src="https://skillicons.dev/icons?i=fastapi" height="20" align="top" alt="FastAPI" />
-- SQLite &nbsp;<img src="https://skillicons.dev/icons?i=sqlite" height="20" align="top" alt="SQLite" />
-- Git &nbsp;<img src="https://skillicons.dev/icons?i=git" height="20" align="top" alt="Git" />
-- Linux &nbsp;<img src="https://skillicons.dev/icons?i=linux" height="20" align="top" alt="Linux" />
-- GitHub Actions &nbsp;<img src="https://skillicons.dev/icons?i=githubactions" height="20" align="top" alt="GitHub Actions" />
-- pytest &nbsp;<img src="https://cdn.simpleicons.org/pytest" height="20" align="top" alt="pytest" />
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,sqlite,git,linux,githubactions" alt="Python, C++, FastAPI, SQLite, Git, Linux, GitHub Actions" />
+  <img src="https://cdn.simpleicons.org/pytest" height="48" alt="pytest" title="pytest" />
+</p>
 
 **Secondary** &nbsp;<sub>used extensively within a specific project</sub>
 
-- React &nbsp;<img src="https://skillicons.dev/icons?i=react" height="20" align="top" alt="React" />
-- Docker &nbsp;<img src="https://skillicons.dev/icons?i=docker" height="20" align="top" alt="Docker" />
-- aiohttp &nbsp;<img src="https://cdn.simpleicons.org/aiohttp" height="20" align="top" alt="aiohttp" />
-- Pandas &nbsp;<img src="https://cdn.simpleicons.org/pandas" height="20" align="top" alt="Pandas" />
-- PySpark &nbsp;<img src="https://cdn.simpleicons.org/apachespark" height="20" align="top" alt="PySpark" />
-- Pydantic &nbsp;<img src="https://cdn.simpleicons.org/pydantic" height="20" align="top" alt="Pydantic" />
-- scikit-learn &nbsp;<img src="https://cdn.simpleicons.org/scikitlearn" height="20" align="top" alt="scikit-learn" />
-- OpenRouter &nbsp;<img src="https://cdn.simpleicons.org/openrouter" height="20" align="top" alt="OpenRouter" />
+<p>
+  <img src="https://skillicons.dev/icons?i=react,docker" alt="React, Docker" />
+  <img src="https://cdn.simpleicons.org/aiohttp" height="48" alt="aiohttp" title="aiohttp (asyncio-based fetch layer, CrawlViz)" />
+  <img src="https://cdn.simpleicons.org/pandas" height="48" alt="Pandas" title="Pandas" />
+  <img src="https://cdn.simpleicons.org/apachespark" height="48" alt="PySpark" title="PySpark (distributed data cleaning)" />
+  <img src="https://cdn.simpleicons.org/pydantic" height="48" alt="Pydantic" title="Pydantic (Invoice Intake Tool, Wasel)" />
+  <img src="https://cdn.simpleicons.org/scikitlearn" height="48" alt="scikit-learn" title="scikit-learn (Wasel)" />
+  <img src="https://cdn.simpleicons.org/openrouter" height="48" alt="OpenRouter" title="OpenRouter (selective LLM routing, CrawlViz)" />
+</p>
 
 **Exposure / training** &nbsp;<sub>coursework or project-level exposure, not production depth</sub>
 
-- JavaScript &nbsp;<img src="https://skillicons.dev/icons?i=js" height="20" align="top" alt="JavaScript" />
-- Tailwind CSS &nbsp;<img src="https://skillicons.dev/icons?i=tailwind" height="20" align="top" alt="Tailwind CSS" />
-- Java &nbsp;<img src="https://skillicons.dev/icons?i=java" height="20" align="top" alt="Java" />
-- LangChain &nbsp;<img src="https://cdn.simpleicons.org/langchain" height="20" align="top" alt="LangChain" />
-- Hugging Face &nbsp;<img src="https://cdn.simpleicons.org/huggingface" height="20" align="top" alt="Hugging Face" />
+<p>
+  <img src="https://skillicons.dev/icons?i=js,tailwind,java" alt="JavaScript, Tailwind, Java" />
+  <img src="https://cdn.simpleicons.org/langchain" height="48" alt="LangChain" title="LangChain (training/exposure)" />
+  <img src="https://cdn.simpleicons.org/huggingface" height="48" alt="Hugging Face" title="Hugging Face (training/exposure)" />
+</p>
 
 ---
 
@@ -188,10 +185,10 @@ Coursework spanning algorithms & complexity, distributed systems, databases, inf
 
 **Training**
 
-- DataCamp Associate AI Engineer for Developers &nbsp;<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Associate AI Engineer for Developers" />
-- DataCamp Data Engineer with Python &nbsp;<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Data Engineer with Python" />
-- DataCamp Associate Data Engineer in SQL &nbsp;<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Associate Data Engineer in SQL" />
-- NVIDIA Building LLM Applications With Prompt Engineering &nbsp;<img src="https://cdn.simpleicons.org/nvidia" height="20" align="top" alt="NVIDIA Building LLM Applications With Prompt Engineering" />
+<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Associate AI Engineer for Developers" /> &nbsp;DataCamp Associate AI Engineer for Developers<br>
+<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Data Engineer with Python" /> &nbsp;DataCamp Data Engineer with Python<br>
+<img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="DataCamp Associate Data Engineer in SQL" /> &nbsp;DataCamp Associate Data Engineer in SQL<br>
+<img src="https://cdn.simpleicons.org/nvidia" height="20" align="top" alt="NVIDIA Building LLM Applications With Prompt Engineering" /> &nbsp;NVIDIA Building LLM Applications With Prompt Engineering<br>
 
 ---
 
