@@ -160,28 +160,37 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 **Primary** &nbsp;<sub>daily use, tested in production across projects</sub>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,fastapi,sqlite,git,linux,githubactions" alt="Python, C++, FastAPI, SQLite, Git, Linux, GitHub Actions" />
+  <img src="https://skillicons.dev/icons?i=python" height="48" alt="Python" title="Python" />
+  <img src="https://skillicons.dev/icons?i=cpp" height="48" alt="C++" title="C++" />
+  <img src="https://skillicons.dev/icons?i=fastapi" height="48" alt="FastAPI" title="FastAPI" />
+  <img src="https://skillicons.dev/icons?i=sqlite" height="48" alt="SQLite" title="SQLite" />
+  <img src="https://skillicons.dev/icons?i=git" height="48" alt="Git" title="Git" />
+  <img src="https://skillicons.dev/icons?i=linux" height="48" alt="Linux" title="Linux" />
+  <img src="https://skillicons.dev/icons?i=githubactions" height="48" alt="GitHub Actions" title="GitHub Actions" />
   <img src="https://cdn.simpleicons.org/pytest" height="48" alt="pytest" title="pytest" />
 </p>
 
 **Secondary** &nbsp;<sub>used extensively within a specific project</sub>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,docker" alt="React, Docker" />
-  <img src="https://cdn.simpleicons.org/aiohttp" height="48" alt="aiohttp" title="aiohttp (asyncio-based fetch layer, CrawlViz)" />
+  <img src="https://skillicons.dev/icons?i=react" height="48" alt="React" title="React" />
+  <img src="https://skillicons.dev/icons?i=docker" height="48" alt="Docker" title="Docker" />
+  <img src="https://cdn.simpleicons.org/aiohttp" height="48" alt="aiohttp" title="aiohttp" />
   <img src="https://cdn.simpleicons.org/pandas" height="48" alt="Pandas" title="Pandas" />
-  <img src="https://cdn.simpleicons.org/apachespark" height="48" alt="PySpark" title="PySpark (distributed data cleaning)" />
-  <img src="https://cdn.simpleicons.org/pydantic" height="48" alt="Pydantic" title="Pydantic (Invoice Intake Tool, Wasel)" />
-  <img src="https://cdn.simpleicons.org/scikitlearn" height="48" alt="scikit-learn" title="scikit-learn (Wasel)" />
-  <img src="https://cdn.simpleicons.org/openrouter" height="48" alt="OpenRouter" title="OpenRouter (selective LLM routing, CrawlViz)" />
+  <img src="https://cdn.simpleicons.org/apachespark" height="48" alt="PySpark" title="PySpark" />
+  <img src="https://cdn.simpleicons.org/pydantic" height="48" alt="Pydantic" title="Pydantic" />
+  <img src="https://cdn.simpleicons.org/scikitlearn" height="48" alt="scikit-learn" title="scikit-learn" />
+  <img src="https://cdn.simpleicons.org/openrouter" height="48" alt="OpenRouter" title="OpenRouter" />
 </p>
 
 **Exposure / training** &nbsp;<sub>coursework or project-level exposure, not production depth</sub>
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js,tailwind,java" alt="JavaScript, Tailwind, Java" />
-  <img src="https://cdn.simpleicons.org/langchain" height="48" alt="LangChain" title="LangChain (training/exposure)" />
-  <img src="https://cdn.simpleicons.org/huggingface" height="48" alt="Hugging Face" title="Hugging Face (training/exposure)" />
+  <img src="https://skillicons.dev/icons?i=js" height="48" alt="JavaScript" title="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="48" alt="Tailwind CSS" title="Tailwind CSS" />
+  <img src="https://skillicons.dev/icons?i=java" height="48" alt="Java" title="Java" />
+  <img src="https://cdn.simpleicons.org/langchain" height="48" alt="LangChain" title="LangChain" />
+  <img src="https://cdn.simpleicons.org/huggingface" height="48" alt="Hugging Face" title="Hugging Face" />
 </p>
 
 ---
