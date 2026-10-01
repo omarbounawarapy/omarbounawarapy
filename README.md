@@ -84,7 +84,7 @@ Client consulting engagement: ETL/decision system over public French legal-annou
 
 <br>
 
-### [Wasel](https://wasel-mc5y.onrender.com) - cash-on-delivery refusal-risk scoring
+### [Wasel](https://wasel.runs-on.dev) - cash-on-delivery refusal-risk scoring
 
 ![pre-startup team project](https://img.shields.io/badge/-pre--startup_team_project-2d2d2d?style=flat-square)
 
@@ -111,7 +111,7 @@ Product prototype for Tunisian e-commerce sellers who lose money on cash-on-deli
 - Deployed on Render and Cloudflare (Worker, container, R2); CI boots the app with no configuration and requires safe public defaults.
 - Repository is private; the live demo runs read-only sample orders.
 
-**[Live demo →](https://wasel-mc5y.onrender.com)** <sub>free tier, may take about a minute to wake</sub>
+**[Live demo →](https://wasel.runs-on.dev)** <sub>free tier, may take about a minute to wake</sub>
 
 </details>
 
