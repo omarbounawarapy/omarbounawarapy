@@ -2,9 +2,9 @@
 
 # Omar Bounawara
 
-**COMPUTER ENGINEERING &nbsp;·&nbsp; PYTHON &nbsp;·&nbsp; C++ &nbsp;·&nbsp; SYSTEMS**
+**COMPUTER ENGINEERING &nbsp;·&nbsp; PYTHON &nbsp;·&nbsp; SYSTEMS**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=1400&color=9A9A9A&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;measure+first+%C2%B7+optimize+second;information+retrieval+%C2%B7+ranking;C%2B%2B+%C2%B7+competitive+programming" alt="rotating focus areas" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=1400&color=9A9A9A&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;measure+first+%C2%B7+optimize+second;information+retrieval+%C2%B7+ranking" alt="rotating focus areas" />
 
 I build systems that check their own work: pipelines with deterministic verification, evaluation gates, and measurements instead of guesses. Most of what's below is running code in this account, a live demo, or a client-delivered pipeline I can describe in detail but can't link publicly.
 
@@ -16,7 +16,7 @@ Computer Engineering at ISI, Université de Tunis El Manar.
 
 <br>
 
-<sub>**FOCUS**</sub> &nbsp;asynchronous Python systems, LLM-backed pipelines, information retrieval, automation, and competitive programming in C++.
+<sub>**FOCUS**</sub> &nbsp;asynchronous Python systems, LLM-backed pipelines, information retrieval, and automation.
 
 ---
 
@@ -55,32 +55,17 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 
 ![private client engagement](https://img.shields.io/badge/-private_client_engagement-2d2d2d?style=flat-square)
 
-Client consulting engagement: ETL/decision system over public French legal-announcement data (BODACC), built solo end to end and delivered as versioned releases (**0.1.0**, then **0.1.1** answering the client's written review point by point).
+Client engagement, September 2026, remote: an ETL and decision pipeline over public French legal-announcement data (BODACC), built solo and delivered as versioned releases (**0.1.0**, then **0.1.1** answering the client's written review).
 
 > *What I learned: the suspected culprit for a slow run was the enrichment API. I measured it, ruled it out, and found per-record database commits instead.*
 
 `Python` `asyncio` `SQLite` `YAML config` `pytest`
 
-`~39k Python lines` · `1,498 tests` · `17× measured speedup` · `161 requirements traced, 157 compliant`
+- Deterministic, config-driven classification and scoring with idempotent ingestion and reproducible decision records. No ML in the decision path, by design.
+- Batching the per-record commits gave a measured **17×** end-to-end speedup on an identical re-run.
+- Validated black-box on a month of real data (**318,962** records fetched, **0** errors); **161** requirements traced, **157** compliant, **4** documented deviations.
 
-- Deterministic, config-driven classification and scoring: **9** event classes, **6** scoring components, **4** priority bands, all externalized to YAML rather than hardcoded. No ML in the decision path, by design.
-- Idempotent ingestion with SIREN-level identity resolution, provenance tracking, and versioned/immutable decision records so past outputs stay reproducible after rule changes.
-- Root-caused a production slowdown to per-record DB commits rather than the enrichment API; batching commits gave a measured **17×** end-to-end speedup on an identical re-run.
-
-<details>
-<summary><strong>Engineering process and validation</strong></summary>
-
-- Code-quality audit read the full source tree, not sampled: **27** findings (**0** critical, **2** high). Both high-severity issues fixed: an enrichment-provider exception gap that could crash a full run instead of degrading one record, and an unprotected export-write path fixed with atomic writes. Also closed a CSV/formula-injection risk in exported files.
-- Specification-compliance audit traced **161** requirements (**157** compliant, **4** documented deviations, **0** non-compliant), preceded by an earlier red-team review cycle that raised **17** findings, all since resolved.
-- Final acceptance ran black-box over a full month of real production data (**2026-08-12** to **2026-09-11**): **318,962** records fetched, **114,705** classified and scored, **114,389** enriched, **524** flagged, **0** errors, in **34m30s**.
-- Independent validation combined a one-week live-API simulation with a **12**-sample hand-reconstruction of real records checked against pipeline output; both found zero discrepancies.
-- Concurrency and crash-recovery tests exercise real conditions rather than mocks: actual competing OS processes racing the lock file, actual SIGKILL mid-run.
-- Packaging audit caught a real defect before delivery: a database schema file missing from package data, which would have made a built wheel crash on first use. Fixed and verified with a real build and fresh-environment install.
-- Release **0.1.1** reworked the operator experience: one exit-code contract across all commands, plain-language failure causes with the exact recovery command, crash and Ctrl-C safety, and config edits that validate before writing and can be traced back from any exported row.
-- Regression check on a real week (**82,614** announcements fetched, **32,385** candidates): **0** records differed from the previous release.
-- Not on GitHub, private client codebase. Described here in prose because the engagement, not the code, is what can be shared.
-
-</details>
+**[Watch the demo video →](https://drive.google.com/file/d/1pDHOMM-HOdADbsOL1z3_fMRcbcmwycKZ/view)** <sub>the code is a private client codebase</sub>
 
 <br>
 
@@ -94,7 +79,7 @@ Product prototype for Tunisian e-commerce sellers who lose money on cash-on-deli
 
 `Python` `FastAPI` `Pydantic` `SQLite` `XGBoost` `scikit-learn` `pytest` `GitHub Actions`
 
-`347 tests` · `476-case evaluation gate` · `0 hallucinated quotes (offline)` · `AUC 0.784 (synthetic holdout)`
+`347 tests` · `476-case evaluation gate` · `0 hallucinated quotes (offline)`
 
 - The LLM only extracts facts, and every quote is verified against the source text. The score comes from a monotone-constrained XGBoost model plus config rules, so the model never picks a number.
 - Provider chain (Groq 120b, Groq 20b, Gemini, rules) with a circuit breaker, daily caps and deadlines, so an LLM outage never surfaces as an HTTP error. Prompts are hash-locked with one-step rollback.
@@ -161,7 +146,6 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 <p>
   <img src="https://skillicons.dev/icons?i=python" height="48" alt="Python" title="Python" />
-  <img src="https://skillicons.dev/icons?i=cpp" height="48" alt="C++" title="C++" />
   <img src="https://skillicons.dev/icons?i=fastapi" height="48" alt="FastAPI" title="FastAPI" />
   <img src="https://skillicons.dev/icons?i=sqlite" height="48" alt="SQLite" title="SQLite" />
   <img src="https://api.iconify.design/vscode-icons:file-type-sql.svg" height="48" width="48" alt="SQL" title="SQL" />
@@ -196,12 +180,6 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=394&height=44&vCenter=true&lines=Competitive+programming" alt="Competitive programming" />
-
-I do competitive programming in C++, mostly graph algorithms, dynamic programming, and data-structure-heavy problems. It's how I keep algorithms and complexity sharp.
-
----
-
 ## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=169&height=44&vCenter=true&lines=Languages" alt="Languages" />
 
 <img src="https://flagcdn.com/w80/tn.png" width="30" align="top" alt="" /> &nbsp;**Arabic** · native<br>
@@ -212,7 +190,7 @@ I do competitive programming in C++, mostly graph algorithms, dynamic programmin
 
 ## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=185&height=44&vCenter=true&lines=Background" alt="Background" />
 
-Licence in Computer Engineering (Computer Systems Engineering, Networks & Systems), Institut Supérieur d'Informatique, Université de Tunis El Manar, 2023–2026.
+Licence en Ingénierie Réseaux et Systèmes (Computer Engineering), Institut Supérieur d'Informatique, Université de Tunis El Manar, 2023–2026.
 
 Coursework spanning algorithms & complexity, distributed systems, databases, information retrieval, and AI. Final-year research-software-engineer project (2025–2026) is the source of CrawlViz above.
 
