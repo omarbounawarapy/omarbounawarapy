@@ -55,7 +55,7 @@ Client engagement, August to September 2026, remote: an ETL and decision pipelin
 
 ![pre-startup team project](https://img.shields.io/badge/-pre--startup_team_project-2d2d2d?style=flat-square)
 
-Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a five-person team (four engineers) and owned the AI/ML core.
+Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a five-person team (three other engineers and a content lead) and owned the AI/ML core.
 
 > *The LLM reads the chat and code decides the number, so the model never picks the score.*
 
