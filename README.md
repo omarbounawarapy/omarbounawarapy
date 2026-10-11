@@ -4,13 +4,11 @@
 
 **COMPUTER ENGINEERING &nbsp;·&nbsp; PYTHON &nbsp;·&nbsp; SYSTEMS**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=1400&color=9A9A9A&center=true&vCenter=true&width=560&lines=asyncio+%C2%B7+event-driven+backends;LLM+pipelines+%C2%B7+evaluation+gates;deterministic+ETL+%C2%B7+client+delivery;measure+first+%C2%B7+optimize+second;information+retrieval+%C2%B7+ranking" alt="rotating focus areas" />
-
 I build systems that check their own work: pipelines with deterministic verification, evaluation gates, and measurements instead of guesses. Most of what's below is running code in this account, a live demo, or a client-delivered pipeline I can describe in detail but can't link publicly.
 
 Computer Engineering at ISI, Université de Tunis El Manar.
 
-[GitHub](https://github.com/omarbounawarapy) · [Email](mailto:omar.bounawara.py@gmail.com)
+[GitHub](https://github.com/omarbounawarapy) · [LinkedIn](https://www.linkedin.com/in/omar-bounawara-py) · [Email](mailto:omar.bounawara.py@gmail.com)
 
 </div>
 
@@ -20,7 +18,7 @@ Computer Engineering at ISI, Université de Tunis El Manar.
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=233&height=44&vCenter=true&lines=Selected+work" alt="Selected work" />
+## Selected work
 
 ### CrawlViz - focused web crawler
 
@@ -73,7 +71,7 @@ Client engagement, September 2026, remote: an ETL and decision pipeline over pub
 
 ![pre-startup team project](https://img.shields.io/badge/-pre--startup_team_project-2d2d2d?style=flat-square)
 
-Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a four-person team and owned the AI/ML core, integration and merge gates.
+Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a five-person team and owned the AI/ML core, integration and merge gates.
 
 > *The LLM reads the chat and code decides the number, so the model never picks the score.*
 
@@ -131,7 +129,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 **[View repository →](https://github.com/omarbounawarapy/IR-lab)**
 
-## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=185&height=44&vCenter=true&lines=How+I+work" alt="How I work" />
+## How I work
 
 - **Measure before optimizing.** The **17×** GAAPWise speedup and the **~40×** CrawlViz speedup both started from a benchmark.
 - **Verify the model, don't trust it.** In Wasel the LLM extracts and code checks every quote and computes the score.
@@ -140,7 +138,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=104&height=44&vCenter=true&lines=Stack" alt="Stack" />
+## Stack
 
 **PRIMARY** &nbsp;<sub>daily use, tested in production across projects</sub>
 
@@ -180,7 +178,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=169&height=44&vCenter=true&lines=Languages" alt="Languages" />
+## Languages
 
 <img src="https://flagcdn.com/w80/tn.png" width="30" align="top" alt="" /> &nbsp;**Arabic** · native<br>
 <img src="https://flagcdn.com/w80/fr.png" width="30" align="top" alt="" /> &nbsp;**French** · fluent<br>
@@ -188,7 +186,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ---
 
-## <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=1400&pause=100000&repeat=false&color=3FB6A8&width=185&height=44&vCenter=true&lines=Background" alt="Background" />
+## Background
 
 Licence en Ingénierie Réseaux et Systèmes (Computer Engineering), Institut Supérieur d'Informatique, Université de Tunis El Manar, 2023–2026.
 
@@ -205,6 +203,6 @@ Coursework spanning algorithms & complexity, distributed systems, databases, inf
 
 <div align="center">
 
-[GitHub](https://github.com/omarbounawarapy) · omar.bounawara.py@gmail.com
+[GitHub](https://github.com/omarbounawarapy) · [LinkedIn](https://www.linkedin.com/in/omar-bounawara-py) · omar.bounawara.py@gmail.com
 
 </div>
