@@ -2,7 +2,7 @@
 
 # Omar Bounawara
 
-**COMPUTER ENGINEERING &nbsp;·&nbsp; PYTHON &nbsp;·&nbsp; SYSTEMS**
+**BACKEND & DATA ENGINEERING &nbsp;·&nbsp; PYTHON &nbsp;·&nbsp; SYSTEMS**
 
 I build systems that check their own work: pipelines with deterministic verification, evaluation gates, and measurements instead of guesses. Most of what's below is running code in this account, a live demo, or a client-delivered pipeline I can describe in detail but can't link publicly.
 
