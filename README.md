@@ -28,7 +28,7 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 
 `Python` `asyncio` `aiohttp` `lxml` `sentence-transformers` `FastAPI` `WebSockets` `React` `D3` `SQLite`
 
-`50,828 links` → `539 explored` · `~40× faster` (600s → 15s) · `57 typed events` · `123 backend tests`
+`50,828 links` → `539 explored` · `~40× faster` (600s → 15s) · `57 typed events` · `247 backend tests`
 
 - Two-stage relevance cascade: a local sentence-embedding pass filters candidates in milliseconds; only the ambiguous middle band goes to an LLM, keeping cost and latency off the critical path.
 - `asyncio` event bus (**57** typed events) coordinating **13** independent pipelines (fetch, extract, filter, score, prioritize, export, retry) with no direct calls between them.
@@ -41,7 +41,7 @@ Decides, link by link, whether a page is worth fetching, instead of crawling exh
 - Reworking the fetch path around `asyncio` took the same **560**-node benchmark from **~600s** to **~15s** wall-clock (**~40×**).
 - Declarative crawl blueprints define seeds, domains, extraction rules, scoring, and stopping conditions.
 - Explicit runtime state, retries, and structured exports; the frontend never depends on a live connection to reconstruct history.
-- **123** backend tests.
+- **247** backend tests.
 
 **[View repository →](https://github.com/omarbounawarapy/CrawlViz)**
 
