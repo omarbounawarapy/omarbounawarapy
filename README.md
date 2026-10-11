@@ -138,6 +138,12 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ---
 
+## Open source
+
+- **[scrapy/scrapyd#579](https://github.com/scrapy/scrapyd/pull/579)** (merged, October 2026): wrote the "Running as a Linux service" section of the deployment docs, covering a systemd unit, a dedicated user, restart policy and journal logging. Closes the maintainers' open documentation issue. Documentation only.
+
+---
+
 ## Stack
 
 **PRIMARY** &nbsp;<sub>daily use, tested in production across projects</sub>
