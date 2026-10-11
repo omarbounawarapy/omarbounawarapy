@@ -4,17 +4,11 @@
 
 **BACKEND & DATA ENGINEERING &nbsp;·&nbsp; PYTHON &nbsp;·&nbsp; SYSTEMS**
 
-I build systems that check their own work: pipelines with deterministic verification, evaluation gates, and measurements instead of guesses. Most of what's below is running code in this account, a live demo, or a client-delivered pipeline I can describe in detail but can't link publicly.
-
-Computer Engineering at ISI, Université de Tunis El Manar.
+Python engineer working on backend services and data pipelines. I check my work with tests, evaluation gates and benchmarks on real data. The projects below are a client pipeline for French legal announcements, a hosted risk-scoring prototype, a focused crawler and two tools written from scratch.
 
 [GitHub](https://github.com/omarbounawarapy) · [LinkedIn](https://www.linkedin.com/in/omar-bounawara-py) · [Email](mailto:omar.bounawara.py@gmail.com)
 
 </div>
-
-<br>
-
-<sub>**FOCUS**</sub> &nbsp;asynchronous Python systems, LLM-backed pipelines, information retrieval, and automation.
 
 ---
 
@@ -22,38 +16,28 @@ Computer Engineering at ISI, Université de Tunis El Manar.
 
 ### CrawlViz - focused web crawler
 
-Decides, link by link, whether a page is worth fetching, instead of crawling exhaustively.
+Decides link by link whether a page is worth fetching, so it does not crawl exhaustively.
 
-> *What I learned: the time went into waiting on I/O, not computing. Making the fetch path concurrent cut the same 560-node benchmark from ~600s to ~15s.*
+> *What I learned: the time went into waiting on I/O, not computing, so the fix was a concurrent fetch path.*
 
 `Python` `asyncio` `aiohttp` `lxml` `sentence-transformers` `FastAPI` `WebSockets` `React` `D3` `SQLite`
 
-`50,828 links` → `539 explored` · `~40× faster` (600s → 15s) · `57 typed events` · `248 backend tests`
+`50,828 links` → `539 explored` · `~40× faster` (600s → 15s on a 560-node benchmark) · `248 backend tests`
 
-- Two-stage relevance cascade: a local sentence-embedding pass filters candidates in milliseconds; only the ambiguous middle band goes to an LLM, keeping cost and latency off the critical path.
+- Two-stage relevance cascade: a local sentence-embedding pass filters candidates in milliseconds, and only the ambiguous middle band goes to an LLM, which keeps cost and latency off the critical path.
 - `asyncio` event bus (**57** typed events) coordinating **13** independent pipelines (fetch, extract, filter, score, prioritize, export, retry) with no direct calls between them.
-- FastAPI control plane, WebSocket state streaming, and a React/D3 frontend that rebuilds its own state by replaying the event log (checkpoint-assisted scrubbing, not a live-only view).
-
-<details>
-<summary><strong>Architecture and benchmark detail</strong></summary>
-
-- Reference run: **50,828** links identified, **539** nodes explored (**~1%** retained for downstream exploration).
-- Reworking the fetch path around `asyncio` took the same **560**-node benchmark from **~600s** to **~15s** wall-clock (**~40×**).
-- Declarative crawl blueprints define seeds, domains, extraction rules, scoring, and stopping conditions.
-- Explicit runtime state, retries, and structured exports; the frontend never depends on a live connection to reconstruct history.
-- **248** backend tests.
+- FastAPI control plane, WebSocket state streaming, and a React/D3 frontend that rebuilds its own state by replaying the event log, so it never depends on a live connection to reconstruct history.
+- Declarative crawl blueprints define seeds, domains, extraction rules, scoring and stopping conditions.
 
 **[View repository →](https://github.com/omarbounawarapy/CrawlViz)**
-
-</details>
 
 <br>
 
 ### GAAPWise - BODACC Intelligence Pipeline
 
-![private client engagement](https://img.shields.io/badge/-private_client_engagement-2d2d2d?style=flat-square)
+![client engagement](https://img.shields.io/badge/-client_engagement-2d2d2d?style=flat-square)
 
-Client engagement, September 2026, remote: an ETL and decision pipeline over public French legal-announcement data (BODACC), built solo and delivered as versioned releases (**0.1.0**, then **0.1.1** answering the client's written review).
+Client engagement, August to September 2026, remote: an ETL and decision pipeline over public French legal-announcement data (BODACC), built solo and delivered as versioned releases (**0.1.0**, then **0.1.1** answering the client's written review).
 
 > *What I learned: the suspected culprit for a slow run was the enrichment API. I measured it, ruled it out, and found per-record database commits instead.*
 
@@ -63,15 +47,15 @@ Client engagement, September 2026, remote: an ETL and decision pipeline over pub
 - Batching the per-record commits gave a measured **17×** end-to-end speedup on an identical re-run.
 - Validated black-box on a month of real data (**318,962** records fetched, **0** errors); **161** requirements traced, **157** compliant, **4** documented deviations.
 
-**[Watch the demo video →](https://drive.google.com/file/d/1pDHOMM-HOdADbsOL1z3_fMRcbcmwycKZ/view)** <sub>the code is a private client codebase</sub>
+**[Watch the demo video →](https://drive.google.com/file/d/1pDHOMM-HOdADbsOL1z3_fMRcbcmwycKZ/view)**
 
 <br>
 
-### [Wasel](https://wasel.runs-on.dev) - cash-on-delivery refusal-risk scoring
+### Wasel - cash-on-delivery refusal-risk scoring
 
 ![pre-startup team project](https://img.shields.io/badge/-pre--startup_team_project-2d2d2d?style=flat-square)
 
-Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a five-person team and owned the AI/ML core, integration and merge gates.
+Product prototype for Tunisian e-commerce sellers who lose money on cash-on-delivery parcels refused at the door. Reads a customer chat in Darija, Arabizi or French, scores refusal risk, highlights the customer's own words as the reason, drafts the one question that lowers the risk, and rescores on reply. I assembled and led a five-person team (four engineers) and owned the AI/ML core.
 
 > *The LLM reads the chat and code decides the number, so the model never picks the score.*
 
@@ -79,10 +63,12 @@ Product prototype for Tunisian e-commerce sellers who lose money on cash-on-deli
 
 `347 tests` · `476-case evaluation gate` · `0 hallucinated quotes (offline)`
 
-- The LLM only extracts facts, and every quote is verified against the source text. The score comes from a monotone-constrained XGBoost model plus config rules, so the model never picks a number.
+- The LLM only extracts facts, and every quote is verified against the source text. The score comes from a monotone-constrained XGBoost model plus config rules.
 - Provider chain (Groq 120b, Groq 20b, Gemini, rules) with a circuit breaker, daily caps and deadlines, so an LLM outage never surfaces as an HTTP error. Prompts are hash-locked with one-step rollback.
-- Prompt-injection guardrails and a three-layer check on outgoing drafts, with an evaluation gate in CI and a drift and faithfulness monitor on top.
-- Built with synthetic data only; a working prototype, not a validated production model.
+- Prompt-injection guardrails and a three-layer check on outgoing drafts, plus a drift and faithfulness monitor.
+- Uses synthetic data only. It is a working prototype with no production validation.
+
+**[Live demo →](https://wasel.runs-on.dev)** <sub>runs read-only sample orders; free tier, may take about a minute to wake</sub>
 
 <details>
 <summary><strong>Team, leadership and engineering detail</strong></summary>
@@ -91,10 +77,8 @@ Product prototype for Tunisian e-commerce sellers who lose money on cash-on-deli
 - Owned integration: `make check` (tests plus evaluation gate) was the merge criterion, with CI on every push.
 - Signed WhatsApp Cloud API webhook (signature check, deduplication, delivery statuses) that fails closed.
 - Analyzer for silent failures in agent conversations: **6** detectors (unsupported success claims, repeated questions, ignored tool errors and others) with evidence, confidence and a ranked issue list.
-- Deployed on Render and Cloudflare (Worker, container, R2); CI boots the app with no configuration and requires safe public defaults.
-- Repository is private; the live demo runs read-only sample orders.
-
-**[Live demo →](https://wasel.runs-on.dev)** <sub>free tier, may take about a minute to wake</sub>
+- Deployed on Render, with a Cloudflare Worker, container and R2 deployment kit; CI boots the app with no configuration and requires safe public defaults.
+- The repository is private.
 
 </details>
 
@@ -106,9 +90,9 @@ CLI that turns semi-structured invoice PDFs (table or paragraph layout, mixed re
 
 `Python` `Pydantic` `pdfplumber` `Pandas` `pytest`
 
-`200+ regression tests` · `JSON / CSV / XLSX export`
+`209 regression tests` · `JSON / CSV / XLSX export`
 
-Deliberately scoped as a deterministic extraction and validation tool, with no OCR, no LLM and no database.
+A deterministic extraction and validation tool with no OCR, LLM or database.
 
 **[View repository →](https://github.com/omarbounawarapy/invoice_intake_automation_tool)**
 
@@ -116,7 +100,7 @@ Deliberately scoped as a deterministic extraction and validation tool, with no O
 
 ### IR Lab
 
-Search engine framework implemented from scratch with no runtime dependencies (standard library only). Every experiment is a JSON config, every run is persisted and reproducible, and comparisons are statistically tested instead of eyeballed.
+Search engine framework implemented from scratch with no runtime dependencies (standard library only). Every experiment is a JSON config, every run is persisted and reproducible, and comparisons are statistically tested.
 
 `Python` `pytest`
 
@@ -129,15 +113,6 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 **[View repository →](https://github.com/omarbounawarapy/IR-lab)**
 
-## How I work
-
-- **Measure before optimizing.** The **17×** GAAPWise speedup and the **~40×** CrawlViz speedup both started from a benchmark.
-- **Verify the model, don't trust it.** In Wasel the LLM extracts and code checks every quote and computes the score.
-- **Test the real thing.** Real OS processes racing a lock file, a real SIGKILL mid-run, black-box acceptance runs on a month of real data.
-- **Compare honestly.** IR Lab refuses to compare two runs that differ in more than one thing, and its own black-box case study found and fixed defects in my code.
-
----
-
 ## Open source
 
 - **[scrapy/scrapyd#579](https://github.com/scrapy/scrapyd/pull/579)** (merged, October 2026): wrote the "Running as a Linux service" section of the deployment docs, covering a systemd unit, a dedicated user, restart policy and journal logging. Closes the maintainers' open documentation issue. Documentation only.
@@ -146,7 +121,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 ## Stack
 
-**PRIMARY** &nbsp;<sub>daily use, tested in production across projects</sub>
+**PRIMARY** &nbsp;<sub>daily use across projects</sub>
 
 <p>
   <img src="https://skillicons.dev/icons?i=python" height="48" alt="Python" title="Python" />
@@ -204,11 +179,3 @@ Coursework spanning algorithms & complexity, distributed systems, databases, inf
 <img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="" /> &nbsp;DataCamp Data Engineer with Python<br>
 <img src="https://cdn.simpleicons.org/datacamp" height="20" align="top" alt="" /> &nbsp;DataCamp Associate Data Engineer in SQL<br>
 <img src="https://cdn.simpleicons.org/nvidia" height="20" align="top" alt="" /> &nbsp;NVIDIA Building LLM Applications With Prompt Engineering<br>
-
----
-
-<div align="center">
-
-[GitHub](https://github.com/omarbounawarapy) · [LinkedIn](https://www.linkedin.com/in/omar-bounawara-py) · omar.bounawara.py@gmail.com
-
-</div>
