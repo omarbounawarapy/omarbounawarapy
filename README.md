@@ -8,6 +8,15 @@ Python engineer working on backend services and data pipelines. I check my work 
 
 [GitHub](https://github.com/omarbounawarapy) · [LinkedIn](https://www.linkedin.com/in/omar-bounawara-py) · [Email](mailto:omar.bounawara.py@gmail.com)
 
+**CONTRIBUTED TO**
+
+<!-- One <a> per project, merged PRs only. Copy a line, change href, src and name. -->
+<p>
+  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="https://github.com/scrapy.png?size=96" height="48" alt="Scrapy" title="Scrapy (scrapyd)" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/deploy/docker/static/assets/crawl4ai-logo.png" height="48" alt="Crawl4AI" title="Crawl4AI" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="https://github.com/terrier-org.png?size=96" height="48" alt="Terrier" title="Terrier" /></a>
+</p>
+
 </div>
 
 ---
