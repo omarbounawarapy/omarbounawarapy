@@ -10,11 +10,12 @@ Python engineer working on backend services and data pipelines. I check my work 
 
 **CONTRIBUTED TO**
 
-<!-- One <a> per project, merged PRs only. Add a 240x240 white rounded tile to assets/contributed-to/, then copy a line and change href, src and name. -->
+<!-- One <a> per merged PR. Make the badge with scripts/make_badge.sh <slug> "<Name>" <logo>, then copy a line. Delete the locked slot once the row is full. -->
 <p>
-  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/scrapy.png" height="56" alt="Scrapy" title="Scrapy (scrapyd)" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/crawl4ai.png" height="56" alt="Crawl4AI" title="Crawl4AI" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/terrier.png" height="56" alt="Terrier" title="Terrier" /></a>
+  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/badge-scrapy.png" width="150" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
+  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/badge-crawl4ai.png" width="150" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
+  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/badge-terrier.png" width="150" alt="Terrier, merged" title="Terrier" /></a>
+  <img src="assets/contributed-to/badge-locked.png" width="150" alt="Next contribution to unlock" title="Next contribution" />
 </p>
 
 </div>
