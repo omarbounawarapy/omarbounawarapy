@@ -12,14 +12,14 @@ Python engineer working on backend services and data pipelines. I check my work 
 
 **CONTRIBUTED TO**
 
-<!-- One <a> per merged PR, 6 per row. Make the badge with scripts/make_badge.sh <slug> "<Name>" <logo>, copy a line, and replace one locked slot with it. Add a locked line to start a new row. -->
+<!-- One <a> per merged PR, 6 per row. Make the badge with scripts/make_badge.sh <slug> "<Name>" <logo> [square or circle:#hex], copy a line, and replace one locked slot with it. Add a locked line to start a new row. -->
 <p align="left">
-  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/hof-scrapy.png" width="94" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
-  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/hof-crawl4ai.png" width="94" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
-  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/hof-terrier.png" width="94" alt="Terrier, merged" title="Terrier" /></a>
-  <img src="assets/contributed-to/hof-empty.png" width="94" alt="Locked" title="To unlock" />
-  <img src="assets/contributed-to/hof-empty.png" width="94" alt="Locked" title="To unlock" />
-  <img src="assets/contributed-to/hof-empty.png" width="94" alt="Locked" title="To unlock" />
+  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/hall-scrapy.png" width="94" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
+  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/hall-crawl4ai.png" width="94" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
+  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/hall-terrier.png" width="94" alt="Terrier, merged" title="Terrier" /></a>
+  <img src="assets/contributed-to/hall-empty.png" width="94" alt="Locked" title="To unlock" />
+  <img src="assets/contributed-to/hall-empty.png" width="94" alt="Locked" title="To unlock" />
+  <img src="assets/contributed-to/hall-empty.png" width="94" alt="Locked" title="To unlock" />
 </p>
 
 ---
