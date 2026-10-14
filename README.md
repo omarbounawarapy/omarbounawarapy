@@ -117,6 +117,7 @@ Search engine framework implemented from scratch with no runtime dependencies (s
 
 - **[scrapy/scrapyd#579](https://github.com/scrapy/scrapyd/pull/579)** (merged, October 2026): wrote the "Running as a Linux service" section of the deployment docs, covering a systemd unit, a dedicated user, restart policy and journal logging. Closes the maintainers' open documentation issue. Documentation only.
 - **[unclecode/crawl4ai#2327](https://github.com/unclecode/crawl4ai/pull/2327)** (merged, October 2026): fixed proxy credentials containing `#`, `/`, `?` or `%` in the HTTP crawler by percent-encoding them once, decoded already-encoded proxy strings after maintainer review, and added pytest regression tests.
+- **[terrier-org/terrier-core#271](https://github.com/terrier-org/terrier-core/pull/271)** (merged, October 2026): restored the TREC collection indexing examples in the docs after the project wiki went offline, recovering the configuration for ten test collections from archived copies. Closes the broken-links issue. Documentation only.
 
 ---
 
