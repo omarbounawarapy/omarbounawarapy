@@ -10,11 +10,11 @@ Python engineer working on backend services and data pipelines. I check my work 
 
 **CONTRIBUTED TO**
 
-<!-- One <a> per project, merged PRs only. Copy a line, change href, src and name. -->
+<!-- One <a> per project, merged PRs only. Add a 240x240 white rounded tile to assets/contributed-to/, then copy a line and change href, src and name. -->
 <p>
-  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="https://github.com/scrapy.png?size=96" height="48" alt="Scrapy" title="Scrapy (scrapyd)" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/deploy/docker/static/assets/crawl4ai-logo.png" height="48" alt="Crawl4AI" title="Crawl4AI" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="https://github.com/terrier-org.png?size=96" height="48" alt="Terrier" title="Terrier" /></a>
+  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/scrapy.png" height="56" alt="Scrapy" title="Scrapy (scrapyd)" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/crawl4ai.png" height="56" alt="Crawl4AI" title="Crawl4AI" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/terrier.png" height="56" alt="Terrier" title="Terrier" /></a>
 </p>
 
 </div>
