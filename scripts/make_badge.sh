@@ -10,8 +10,8 @@ GOLD='#d4a72c'
 if [ "$1" = locked ]; then
   magick -size 300x360 xc:none -fill '#21262d' -stroke '#484f58' -strokewidth 4 \
     -draw "roundrectangle 12,12 287,287 48,48" \
-    -stroke none -fill '#6e7681' -font "$F" -pointsize 150 -gravity north -annotate +0+70 '?' \
-    -pointsize 38 -annotate +0+300 'TO UNLOCK' "$OUT/tile-locked.png"
+    -stroke none -fill '#7d8590' -font "$F" -pointsize 150 -gravity north -annotate +0+70 '?' \
+    -pointsize 38 -annotate +0+300 'TO UNLOCK' "$OUT/tile-empty.png"
   exit 0
 fi
 slug=$1; logo=$2
