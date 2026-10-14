@@ -8,17 +8,18 @@ Python engineer working on backend services and data pipelines. I check my work 
 
 [GitHub](https://github.com/omarbounawarapy) · [LinkedIn](https://www.linkedin.com/in/omar-bounawara-py) · [Email](mailto:omar.bounawara.py@gmail.com)
 
+</div>
+
 **CONTRIBUTED TO**
 
-<!-- One <a> per merged PR. Make the badge with scripts/make_badge.sh <slug> <logo>, then copy a line. Delete the locked slot once the row is full. -->
-<p>
-  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/badge-scrapy.png" width="107" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
-  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/badge-crawl4ai.png" width="107" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
-  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/badge-terrier.png" width="107" alt="Terrier, merged" title="Terrier" /></a>
-  <img src="assets/contributed-to/badge-locked.png" width="107" alt="Next contribution to unlock" title="Next contribution" />
+<!-- One <a> per merged PR, 5 per row. Make the badge with scripts/make_badge.sh <slug> <logo>, copy a line, and replace one locked slot with it. Add a locked line to start a new row. -->
+<p align="left">
+  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/badge-scrapy.png" width="118" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
+  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/badge-crawl4ai.png" width="118" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
+  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/badge-terrier.png" width="118" alt="Terrier, merged" title="Terrier" /></a>
+  <img src="assets/contributed-to/badge-locked.png" width="118" alt="Locked" title="To unlock" />
+  <img src="assets/contributed-to/badge-locked.png" width="118" alt="Locked" title="To unlock" />
 </p>
-
-</div>
 
 ---
 
