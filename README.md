@@ -12,9 +12,9 @@ I build backend services and data pipelines in Python, and I like checking them 
 
 ## Things I've built
 
-### CrawlViz <sub>research project</sub>
+### CrawlViz
 
-A crawler that picks which links are worth following. On one run it explored 539 of 50,828 links.
+`research project` A crawler that picks which links are worth following. On one run it explored 539 of 50,828 links.
 
 - Cheap embedding filter first, LLM only for unclear pages
 - 13 pipelines talking over one async event bus
@@ -25,9 +25,9 @@ A crawler that picks which links are worth following. On one run it explored 539
 
 <br>
 
-### GAAPWise <sub>client</sub>
+### GAAPWise
 
-A pipeline that sorts and scores French legal announcements (BODACC). It ran through a month of real data, 318,962 records, with zero errors.
+`client` A pipeline that sorts and scores French legal announcements (BODACC). It ran through a month of real data, 318,962 records, with zero errors.
 
 - Rule-based scoring, no ML in the decisions
 - 17x faster by batching database commits
@@ -37,9 +37,9 @@ A pipeline that sorts and scores French legal announcements (BODACC). It ran thr
 
 <br>
 
-### Wasel <sub>team of 5</sub>
+### Wasel
 
-Predicts whether a cash-on-delivery customer will refuse the parcel, from a chat in Darija, Arabizi or French. It passes a 476-case evaluation gate.
+`team of 5` Predicts whether a cash-on-delivery customer will refuse the parcel, from a chat in Darija, Arabizi or French. It passes a 476-case evaluation gate.
 
 - LLM reads the chat, XGBoost picks the score
 - Every quoted reason checked against the chat
@@ -50,9 +50,9 @@ Predicts whether a cash-on-delivery customer will refuse the parcel, from a chat
 
 <br>
 
-### Invoice Intake <sub>solo</sub>
+### Invoice Intake
 
-Turns messy invoice PDFs into clean JSON, CSV or Excel records, backed by 209 regression tests.
+`solo` Turns messy invoice PDFs into clean JSON, CSV or Excel records, backed by 209 regression tests.
 
 - Handles table and paragraph layouts
 - Reads mixed regional number formats
@@ -62,9 +62,9 @@ Turns messy invoice PDFs into clean JSON, CSV or Excel records, backed by 209 re
 
 <br>
 
-### IR Lab <sub>from scratch</sub>
+### IR Lab
 
-A small search engine framework using only the standard library, tested on the CISI collection.
+`from scratch` A small search engine framework using only the standard library, tested on the CISI collection.
 
 - Boolean and TF-IDF retrieval
 - Significance test written from scratch
@@ -78,12 +78,12 @@ A small search engine framework using only the standard library, tested on the C
 
 <!-- One <a> per merged PR, 6 per row. Make the badge with scripts/make_badge.sh <slug> "<Name>" <logo> [square or circle:#hex], copy a line, and replace one locked slot with it. Add a locked line to start a new row. -->
 <p align="left">
-  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/hall-scrapy.png" width="94" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
-  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/hall-crawl4ai.png" width="94" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
-  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/hall-terrier.png" width="94" alt="Terrier, merged" title="Terrier" /></a>
-  <img src="assets/contributed-to/hall-empty.png" width="94" alt="" title="To unlock" />
-  <img src="assets/contributed-to/hall-empty.png" width="94" alt="" title="To unlock" />
-  <img src="assets/contributed-to/hall-empty.png" width="94" alt="" title="To unlock" />
+  <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/hall-scrapy.png" width="84" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
+  <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/hall-crawl4ai.png" width="84" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
+  <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/hall-terrier.png" width="84" alt="Terrier, merged" title="Terrier" /></a>
+  <img src="assets/contributed-to/hall-empty.png" width="84" alt="" title="To unlock" />
+  <img src="assets/contributed-to/hall-empty.png" width="84" alt="" title="To unlock" />
+  <img src="assets/contributed-to/hall-empty.png" width="84" alt="" title="To unlock" />
 </p>
 
 - [scrapy/scrapyd#579](https://github.com/scrapy/scrapyd/pull/579): docs for running scrapyd as a Linux service
@@ -97,44 +97,44 @@ A small search engine framework using only the standard library, tested on the C
 **Daily**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python" height="40" alt="" title="Python" />
-  <img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="" title="FastAPI" />
-  <img src="https://skillicons.dev/icons?i=sqlite" height="40" alt="" title="SQLite" />
-  <img src="assets/stack/sql.svg" height="40" alt="" title="SQL" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="" title="Git" />
-  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="" title="Linux" />
-  <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="" title="GitHub Actions" />
-  <img src="assets/stack/pytest.svg" height="40" alt="" title="pytest" />
+  <img src="https://skillicons.dev/icons?i=python" height="36" alt="" title="Python" />
+  <img src="https://skillicons.dev/icons?i=fastapi" height="36" alt="" title="FastAPI" />
+  <img src="https://skillicons.dev/icons?i=sqlite" height="36" alt="" title="SQLite" />
+  <img src="assets/stack/sql.svg" height="36" alt="" title="SQL" />
+  <img src="https://skillicons.dev/icons?i=git" height="36" alt="" title="Git" />
+  <img src="https://skillicons.dev/icons?i=linux" height="36" alt="" title="Linux" />
+  <img src="https://skillicons.dev/icons?i=githubactions" height="36" alt="" title="GitHub Actions" />
+  <img src="assets/stack/pytest.svg" height="36" alt="" title="pytest" />
+  <br>
+  Python · FastAPI · SQLite · SQL · Git · Linux · GitHub Actions · pytest
 </p>
-
-<sub>Python · FastAPI · SQLite · SQL · Git · Linux · GitHub Actions · pytest</sub>
 
 **In some projects**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="" title="React" />
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="" title="Docker" />
-  <img src="assets/stack/aiohttp.svg" height="40" alt="" title="aiohttp" />
-  <img src="assets/stack/pandas.svg" height="40" alt="" title="Pandas" />
-  <img src="assets/stack/spark.svg" height="40" alt="" title="PySpark" />
-  <img src="assets/stack/pydantic.svg" height="40" alt="" title="Pydantic" />
-  <img src="https://skillicons.dev/icons?i=sklearn" height="40" alt="" title="scikit-learn" />
-  <img src="assets/stack/openrouter.svg" height="40" alt="" title="OpenRouter" />
+  <img src="https://skillicons.dev/icons?i=react" height="36" alt="" title="React" />
+  <img src="https://skillicons.dev/icons?i=docker" height="36" alt="" title="Docker" />
+  <img src="assets/stack/aiohttp.svg" height="36" alt="" title="aiohttp" />
+  <img src="assets/stack/pandas.svg" height="36" alt="" title="Pandas" />
+  <img src="assets/stack/spark.svg" height="36" alt="" title="PySpark" />
+  <img src="assets/stack/pydantic.svg" height="36" alt="" title="Pydantic" />
+  <img src="https://skillicons.dev/icons?i=sklearn" height="36" alt="" title="scikit-learn" />
+  <img src="assets/stack/openrouter.svg" height="36" alt="" title="OpenRouter" />
+  <br>
+  React · Docker · aiohttp · Pandas · PySpark · Pydantic · scikit-learn · OpenRouter
 </p>
-
-<sub>React · Docker · aiohttp · Pandas · PySpark · Pydantic · scikit-learn · OpenRouter</sub>
 
 **Still learning**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="" title="JavaScript" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="" title="Tailwind CSS" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="" title="Java" />
-  <img src="assets/stack/langchain.svg" height="40" alt="" title="LangChain" />
-  <img src="assets/stack/huggingface.svg" height="40" alt="" title="Hugging Face" />
+  <img src="https://skillicons.dev/icons?i=js" height="36" alt="" title="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="36" alt="" title="Tailwind CSS" />
+  <img src="https://skillicons.dev/icons?i=java" height="36" alt="" title="Java" />
+  <img src="assets/stack/langchain.svg" height="36" alt="" title="LangChain" />
+  <img src="assets/stack/huggingface.svg" height="36" alt="" title="Hugging Face" />
+  <br>
+  JavaScript · Tailwind CSS · Java · LangChain · Hugging Face
 </p>
-
-<sub>JavaScript · Tailwind CSS · Java · LangChain · Hugging Face</sub>
 
 ---
 
