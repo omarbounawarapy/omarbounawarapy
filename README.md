@@ -81,9 +81,9 @@ A small search engine framework using only the standard library, tested on the C
   <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/hall-scrapy.png" width="94" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
   <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/hall-crawl4ai.png" width="94" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
   <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/hall-terrier.png" width="94" alt="Terrier, merged" title="Terrier" /></a>
-  <img src="assets/contributed-to/hall-empty.png" width="94" alt="Locked" title="To unlock" />
-  <img src="assets/contributed-to/hall-empty.png" width="94" alt="Locked" title="To unlock" />
-  <img src="assets/contributed-to/hall-empty.png" width="94" alt="Locked" title="To unlock" />
+  <img src="assets/contributed-to/hall-empty.png" width="94" alt="" title="To unlock" />
+  <img src="assets/contributed-to/hall-empty.png" width="94" alt="" title="To unlock" />
+  <img src="assets/contributed-to/hall-empty.png" width="94" alt="" title="To unlock" />
 </p>
 
 - [scrapy/scrapyd#579](https://github.com/scrapy/scrapyd/pull/579): docs for running scrapyd as a Linux service
@@ -97,38 +97,44 @@ A small search engine framework using only the standard library, tested on the C
 **Daily**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python" height="40" alt="Python" title="Python" />
-  <img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" title="FastAPI" />
-  <img src="https://skillicons.dev/icons?i=sqlite" height="40" alt="SQLite" title="SQLite" />
-  <img src="https://api.iconify.design/vscode-icons:file-type-sql.svg" height="40" width="40" alt="SQL" title="SQL" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="Git" title="Git" />
-  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="Linux" title="Linux" />
-  <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="GitHub Actions" title="GitHub Actions" />
-  <img src="https://cdn.simpleicons.org/pytest" height="40" alt="pytest" title="pytest" />
+  <img src="https://skillicons.dev/icons?i=python" height="40" alt="" title="Python" />
+  <img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="" title="FastAPI" />
+  <img src="https://skillicons.dev/icons?i=sqlite" height="40" alt="" title="SQLite" />
+  <img src="assets/stack/sql.svg" height="40" alt="" title="SQL" />
+  <img src="https://skillicons.dev/icons?i=git" height="40" alt="" title="Git" />
+  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="" title="Linux" />
+  <img src="https://skillicons.dev/icons?i=githubactions" height="40" alt="" title="GitHub Actions" />
+  <img src="assets/stack/pytest.svg" height="40" alt="" title="pytest" />
 </p>
+
+<sub>Python · FastAPI · SQLite · SQL · Git · Linux · GitHub Actions · pytest</sub>
 
 **In some projects**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="React" title="React" />
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="Docker" title="Docker" />
-  <img src="https://cdn.simpleicons.org/aiohttp" height="40" alt="aiohttp" title="aiohttp" />
-  <img src="https://cdn.simpleicons.org/pandas" height="40" alt="Pandas" title="Pandas" />
-  <img src="https://cdn.simpleicons.org/apachespark" height="40" alt="PySpark" title="PySpark" />
-  <img src="https://cdn.simpleicons.org/pydantic" height="40" alt="Pydantic" title="Pydantic" />
-  <img src="https://cdn.simpleicons.org/scikitlearn" height="40" alt="scikit-learn" title="scikit-learn" />
-  <img src="https://cdn.simpleicons.org/openrouter" height="40" alt="OpenRouter" title="OpenRouter" />
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="" title="React" />
+  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="" title="Docker" />
+  <img src="assets/stack/aiohttp.svg" height="40" alt="" title="aiohttp" />
+  <img src="assets/stack/pandas.svg" height="40" alt="" title="Pandas" />
+  <img src="assets/stack/spark.svg" height="40" alt="" title="PySpark" />
+  <img src="assets/stack/pydantic.svg" height="40" alt="" title="Pydantic" />
+  <img src="https://skillicons.dev/icons?i=sklearn" height="40" alt="" title="scikit-learn" />
+  <img src="assets/stack/openrouter.svg" height="40" alt="" title="OpenRouter" />
 </p>
+
+<sub>React · Docker · aiohttp · Pandas · PySpark · Pydantic · scikit-learn · OpenRouter</sub>
 
 **Still learning**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="JavaScript" title="JavaScript" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="Tailwind CSS" title="Tailwind CSS" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="Java" title="Java" />
-  <img src="https://cdn.simpleicons.org/langchain" height="40" alt="LangChain" title="LangChain" />
-  <img src="https://cdn.simpleicons.org/huggingface" height="40" alt="Hugging Face" title="Hugging Face" />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="" title="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="" title="Tailwind CSS" />
+  <img src="https://skillicons.dev/icons?i=java" height="40" alt="" title="Java" />
+  <img src="assets/stack/langchain.svg" height="40" alt="" title="LangChain" />
+  <img src="assets/stack/huggingface.svg" height="40" alt="" title="Hugging Face" />
 </p>
+
+<sub>JavaScript · Tailwind CSS · Java · LangChain · Hugging Face</sub>
 
 ---
 
