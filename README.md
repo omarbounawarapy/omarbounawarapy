@@ -140,4 +140,4 @@ I build backend services and data pipelines in Python, and I like checking them 
 
 <img src="https://flagcdn.com/w80/tn.png" width="22" align="top" alt="" /> Arabic &nbsp;·&nbsp; <img src="https://flagcdn.com/w80/fr.png" width="22" align="top" alt="" /> French &nbsp;·&nbsp; <img src="https://flagcdn.com/w80/gb.png" width="22" align="top" alt="" /> English
 
-Studying computer engineering at ISI, Université de Tunis El Manar.
+Computer engineering graduate from ISI, Université de Tunis El Manar.
