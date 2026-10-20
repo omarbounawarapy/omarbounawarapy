@@ -81,7 +81,7 @@ I build backend services and data pipelines in Python, and I like checking them 
   <a href="https://github.com/scrapy/scrapyd/pull/579"><img src="assets/contributed-to/hall-scrapy.png" width="84" alt="Scrapy, merged" title="Scrapy (scrapyd)" /></a>
   <a href="https://github.com/unclecode/crawl4ai/pull/2327"><img src="assets/contributed-to/hall-crawl4ai.png" width="84" alt="Crawl4AI, merged" title="Crawl4AI" /></a>
   <a href="https://github.com/terrier-org/terrier-core/pull/271"><img src="assets/contributed-to/hall-terrier.png" width="84" alt="Terrier, merged" title="Terrier" /></a>
-  <img src="assets/contributed-to/hall-empty.png" width="84" alt="" title="To unlock" />
+  <a href="https://github.com/apache/stormcrawler/pull/2244"><img src="assets/contributed-to/hall-stormcrawler.png" width="84" alt="StormCrawler, merged" title="Apache StormCrawler" /></a>
   <img src="assets/contributed-to/hall-empty.png" width="84" alt="" title="To unlock" />
   <img src="assets/contributed-to/hall-empty.png" width="84" alt="" title="To unlock" />
 </p>
@@ -89,6 +89,7 @@ I build backend services and data pipelines in Python, and I like checking them 
 - [scrapy/scrapyd#579](https://github.com/scrapy/scrapyd/pull/579): docs for running scrapyd as a Linux service
 - [unclecode/crawl4ai#2327](https://github.com/unclecode/crawl4ai/pull/2327): fix for proxy passwords with special characters
 - [terrier-org/terrier-core#271](https://github.com/terrier-org/terrier-core/pull/271): restored the TREC indexing docs after the wiki went offline
+- [apache/stormcrawler#2244](https://github.com/apache/stormcrawler/pull/2244): punycoded the host in politeness, partition and robots.txt keys
 
 ---
 
